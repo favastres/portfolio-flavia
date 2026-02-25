@@ -1,0 +1,49 @@
+.heroCard {
+  background: var(--card-bg);
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+  padding: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Centraliza tudo (foto e textos) */
+  text-align: center; /* Garante que o texto fique centralizado */
+  gap: 1.5rem;
+}
+
+.avatarWrapper {
+  margin-bottom: 0.5rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent-color);
+  background-color: var(--card-bg);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-primary);
+}
+
+.role {
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 1.1rem;
+  display: inline-block;
+  background: rgba(130, 87, 229, 0.1);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+.description {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  font-size: 1rem;
+  max-width: 600px; /* Evita que o texto fique muito largo e difícil de ler */
+}

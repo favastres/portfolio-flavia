@@ -1,0 +1,85 @@
+.card {
+  background: var(--card-bg);
+
+  /* MUDANÇA AQUI: */
+  /* Define a cor roxa para todos os lados e o estilo sólido */
+  border-color: var(--accent-color);
+  border-style: solid;
+  /* Define as larguras: Topo(1px) Direita(1px) Baixo(1px) Esquerda(4px) */
+  border-width: 1px 1px 1px 4px;
+
+  border-radius: 4px 12px 12px 4px; /* Arredondado mais na direita */
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+
+/* Efeito extra: realçar um pouco ao passar o mouse */
+.card:hover {
+  transform: translateX(5px); /* Move ligeiramente para a direita */
+  box-shadow: -5px 5px 15px rgba(130, 87, 229, 0.1); /* Sombra roxa suave */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.role {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.company {
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+  display: block;
+}
+
+.period {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.techStack {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.techBadge {
+  font-size: 0.75rem;
+  color: var(--text-primary);
+  background: rgba(
+    130,
+    87,
+    229,
+    0.1
+  ); /* Mudei o fundo dos badges para roxo clarinho também */
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-weight: 500;
+}

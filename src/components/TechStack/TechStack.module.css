@@ -1,0 +1,50 @@
+.stackCard {
+  background: var(--card-bg);
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+
+  /* AUMENTADO: Mais respiro interno */
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardTitle {
+  font-size: 1.1rem;
+  margin-bottom: 2rem; /* Mais espaço entre título e ícones */
+  color: var(--text-primary);
+  font-weight: 600;
+  text-align: center;
+}
+
+.iconGrid {
+  display: flex; /* Mudamos de Grid para Flex */
+  flex-wrap: wrap; /* Permite quebrar linha */
+  justify-content: center; /* CENTRALIZA tudo horizontalmente */
+  gap: 3rem; /* Espaço generoso entre os ícones */
+  max-width: 900px; /* Limita a largura para não espalhar demais */
+  margin: 0 auto; /* Centraliza o bloco na tela */
+}
+
+.techItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  width: 100px; /* Define um tamanho fixo para o item ficar alinhado */
+  text-align: center;
+
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition:
+    transform 0.2s,
+    color 0.2s;
+}
+
+.techItem:hover {
+  transform: translateY(-5px);
+  color: var(--text-primary);
+}

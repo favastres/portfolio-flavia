@@ -1,0 +1,88 @@
+.headerWrapper {
+  /* Garante que o menu flutue acima de tudo */
+  position: fixed;
+  top: 20px; /* Distância do topo */
+  left: 50%;
+  transform: translateX(-50%); /* Centraliza perfeitamente */
+  z-index: 1000;
+  width: auto;
+  max-width: 90%;
+}
+
+.dock {
+  /* O visual de "pílula" escura */
+  background: rgba(25, 25, 29, 0.85); /* Fundo escuro levemente transparente */
+  backdrop-filter: blur(12px);         /* Efeito de vidro borrado */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Borda sutil */
+  border-radius: 50px;                 /* Bordas totalmente redondas */
+  padding: 0.75rem 2rem;               /* Espaçamento interno */
+  
+  display: flex;
+  align-items: center;
+  gap: 3rem; /* Espaço entre os blocos (Nome --- Links --- Ícones) */
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5); /* Sombra suave */
+}
+
+/* 1. O Nome (Esquerda) */
+.logo {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* 2. Os Links (Centro) */
+.nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navLink {
+  color: #a8a8b3; /* Cinza claro */
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navLink:hover {
+  color: #8257e5; /* Roxo ao passar o mouse */
+}
+
+/* 3. Os Ícones (Direita) */
+.socials {
+  display: flex;
+  gap: 1rem;
+  padding-left: 1.5rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.1); /* Divisória sutil antes dos ícones */
+}
+
+.icon {
+  color: #a8a8b3;
+  transition: transform 0.2s, color 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.icon:hover {
+  color: #fff;
+  transform: translateY(-2px); /* Pulo suave */
+}
+
+/* Responsividade para celular */
+@media (max-width: 768px) {
+  .dock {
+    padding: 0.75rem 1.5rem;
+    gap: 1.5rem;
+  }
+  
+  .logo {
+    display: none; /* Esconde o nome "Flavia" no celular para caber tudo */
+  }
+  
+  .socials {
+    padding-left: 0;
+    border-left: none;
+  }
+}

@@ -1,0 +1,31 @@
+.footer {
+  border-top: 1px solid var(--border-color);
+  padding: 3rem 1rem; 
+  margin-top: 4rem;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.highlight {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+.links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.link {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}

@@ -1,0 +1,38 @@
+/* src/app/globals.css */
+:root {
+  --bg-color: #121214; /* Fundo escuro quase preto */
+  --card-bg: #202024; /* Fundo dos cartões/blocos */
+  --text-primary: #e1e1e6; /* Texto principal (quase branco) */
+  --text-secondary: #a8a8b3; /* Texto secundário (cinza) */
+  --accent-color: #8257e5; /* Roxo (pode mudar para sua cor favorita) */
+  --border-color: #323238;
+  --font-family: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.grid-container {
+  display: flex; /* Lista vertical */
+  flex-direction: column; /* Um embaixo do outro */
+  gap: 1rem; /* Espaço entre cada bloco */
+
+  max-width: 800px; /* Limita a largura para não ficar "gigante" em telas grandes */
+  margin: 0 auto; /* Centraliza a coluna na tela */
+  padding: 6rem 1.5rem 3rem 1.5rem;
+}

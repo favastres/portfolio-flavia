@@ -1,0 +1,59 @@
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+  transition: border-color 0.2s;
+}
+
+.card:hover {
+  border-color: var(--accent-color);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.institution {
+  color: var(--accent-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.period {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+/* Badge de Status */
+.status {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 99px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.done {
+  background: rgba(130, 87, 229, 0.1);
+  color: var(--accent-color);
+}
+
+.progress {
+  background: rgba(0, 179, 126, 0.1); /* Verde para "Em andamento" */
+  color: #00B37E;
+}
