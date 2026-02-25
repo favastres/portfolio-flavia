@@ -13,19 +13,22 @@ Sou uma profissional de QA focada em garantir a excelência técnica e a melhor 
 | **Web Automation** | ![Playwright](https://img.shields.io/badge/Playwright-32AD4A?style=flat-square&logo=Playwright&logoColor=white) ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat-square&logo=Cypress&logoColor=white) ![Robot Framework](https://img.shields.io/badge/Robot_Framework-002244?style=flat-square&logo=Robot-Framework&logoColor=white) |
 | **Mobile & API** | ![Appium](https://img.shields.io/badge/Appium-6222C0?style=flat-square&logo=Appium&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white) ![K6](https://img.shields.io/badge/K6-7D64FF?style=flat-square&logo=k6&logoColor=white) |
 | **Frontend/Dev** | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| **Management** | ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
+| **Gestão & CI/CD** | ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
 
 ---
 
-## 🚀 O que estou construindo
- Atualmente estou desenvolvendo o meu **[Galaxy Profile]**, um portfólio técnico construído em **Next.js** para demonstrar práticas de Clean Code, Testes Unitários e E2E aplicados ao mundo real.
+## 🔭 O que estou estudando
+Estou sempre me aprofundando em novas tecnologias para melhorar a cobertura de testes e a performance das aplicações.
+* 🤖 **IA aplicada a QA**
+* ⚡ **Testes de Performance em larga escala**
+* 📱 **Automação Mobile avançada**
 
 ---
 
-## 📊 Estatísticas do GitHub
+## 📊 Minhas Estatísticas
 <p align="left">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=favastres&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=favastres&layout=compact&langs_count=7&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO_AQUI&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO_AQUI&layout=compact&langs_count=7&theme=tokyonight"/>
 </p>
 
 ---
