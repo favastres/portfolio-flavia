@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Olá, eu sou a Flavia! 👋
 
-## Getting Started
+### QA Automation Engineer | Software Quality Specialist | AI Enthusiast
 
-First, run the development server:
+Sou uma profissional de QA focada em garantir a excelência técnica e a melhor experiência para o usuário final. Meu trabalho vai além de encontrar bugs; foco em construir estratégias de automação robustas, escaláveis e integradas ao ciclo de desenvolvimento (CI/CD).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Meu Toolkit de Qualidade
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Categoria | Ferramentas |
+| :--- | :--- |
+| **Web Automation** | ![Playwright](https://img.shields.io/badge/Playwright-32AD4A?style=flat-square&logo=Playwright&logoColor=white) ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat-square&logo=Cypress&logoColor=white) ![Robot Framework](https://img.shields.io/badge/Robot_Framework-002244?style=flat-square&logo=Robot-Framework&logoColor=white) |
+| **Mobile & API** | ![Appium](https://img.shields.io/badge/Appium-6222C0?style=flat-square&logo=Appium&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white) ![K6](https://img.shields.io/badge/K6-7D64FF?style=flat-square&logo=k6&logoColor=white) |
+| **Frontend/Dev** | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| **Management** | ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 O que estou construindo
+ Atualmente estou desenvolvendo o meu **[Galaxy Profile]**, um portfólio técnico construído em **Next.js** para demonstrar práticas de Clean Code, Testes Unitários e E2E aplicados ao mundo real.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📊 Estatísticas do GitHub
+<p align="left">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=favastres&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=favastres&layout=compact&langs_count=7&theme=tokyonight"/>
+</p>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📫 Vamos nos conectar?
+- [LinkedIn](https://www.linkedin.com/in/flaviavastres/)
+- [Meu Portfólio](https://portifolio-flavia.vercel.app/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*"Quality is not an act, it is a habit."*
