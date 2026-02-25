@@ -25,16 +25,7 @@ Estou sempre me aprofundando em novas tecnologias para melhorar a cobertura de t
 
 ---
 
-## 📊 Minhas Estatísticas
-<p align="left">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO_AQUI&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO_AQUI&layout=compact&langs_count=7&theme=tokyonight"/>
-</p>
-
----
-
 ## 📫 Vamos nos conectar?
 - [LinkedIn](https://www.linkedin.com/in/flaviavastres/)
-- [Meu Portfólio](https://portifolio-flavia.vercel.app/)
 
 *"Quality is not an act, it is a habit."*
